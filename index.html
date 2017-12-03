@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Template de Bootstrap</title>
+	<link rel="shortcut icon" type="image/x-icon" href= "favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+	<!-- NAVEGADOR -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Bootstrap theme</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<!-- SECCION JUMBOTRON -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 jumbotron">
+					<h1>Theme example</h1>
+					<p>This is template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION BOTONES -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header"">
+					<h1>Buttons</h1>
+				</div>
+<!-- BOTONES GRANDES -->
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+							<button type="button" class="btn btn-lg btn-default">Default</button>
+							<button type="button" class="btn btn-lg btn-primary">Primary</button>
+							<button type="button" class="btn btn-lg btn-success">Success</button>
+							<button type="button" class="btn btn-lg btn-info">Info</button>
+							<button type="button" class="btn btn-lg btn-warning">Warning</button>
+							<button type="button" class="btn btn-lg btn-danger">Danger</button>
+							<button type="button" class="btn btn-lg btn-link">Link</button>
+						</p>
+					</div>
+				</div>
+<!-- BOTONES MEDIANOS-->
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+							<button type="button" class="btn btn-default">Default</button>
+							<button type="button" class="btn btn-primary">Primary</button>
+							<button type="button" class="btn btn-success">Success</button>
+							<button type="button" class="btn btn-info">Info</button>
+							<button type="button" class="btn btn-warning">Warning</button>
+							<button type="button" class="btn btn-danger">Danger</button>
+							<button type="button" class="btn btn-link">Link</button>
+						</p>
+					</div>
+				</div>
+<!-- BOTONES PEQUEÑOS -->
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+							<button type="button" class="btn btn-sm btn-default">Default</button>
+							<button type="button" class="btn btn-sm btn-primary">Primary</button>
+							<button type="button" class="btn btn-sm btn-success">Success</button>
+							<button type="button" class="btn btn-sm btn-info">Info</button>
+							<button type="button" class="btn btn-sm btn-warning">Warning</button>
+							<button type="button" class="btn btn-sm btn-danger">Danger</button>
+							<button type="button" class="btn btn-sm btn-link">Link</button>
+						</p>
+					</div>
+				</div>
+<!-- BOTONES XS -->
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+							<button type="button" class="btn btn-xs btn-default">Default</button>
+							<button type="button" class="btn btn-xs btn-primary">Primary</button>
+							<button type="button" class="btn btn-xs btn-success">Success</button>
+							<button type="button" class="btn btn-xs btn-info">Info</button>
+							<button type="button" class="btn btn-xs btn-warning">Warning</button>
+							<button type="button" class="btn btn-xs btn-danger">Danger</button>
+							<button type="button" class="btn btn-xs btn-link">Link</button>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION TABLAS -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>Tables</h1>
+				</div>
+				<div class="row">
+<!-- PRIMERA TABLA -->
+					<div class="col-md-6">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacbo</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Larry</td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+<!-- TABLA CON COLOR MAS OSCURO INTERCALADO -->
+					<div class="col-md-6">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacbo</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Larry</td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="row">
+<!--TABLA CON BORDE -->
+					<div class="col-md-6">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="2">1</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@TwBootstrap</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacbo</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td colspan="2">Larry the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+<!--TABLA CONDENSED / COMPRIMIDA-->
+					<div class="col-md-6">
+						<table class="table table-condensed">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="2">1</td>
+									<td>Mark</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@TwBootstrap</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacbo</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td colspan="2">Larry the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION THUMBNAIL-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header"">
+					<h1>Thumbnail</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="assets/img/200x200.gif" alt="200x200">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SECCION LABELS -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>Labels</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- h1 -->
+						<h1>
+							<span class="label label-default">Default</span>
+							<span class="label label-primary">Primary</span>
+							<span class="label label-success">Success</span>
+							<span class="label label-info">Info</span>
+							<span class="label label-warning">Warning</span>
+							<span class="label label-danger">Danger</span>
+						</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- H2 -->
+						<h2>
+							<span class="label label-default">Default</span>
+							<span class="label label-primary">Primary</span>
+							<span class="label label-success">Success</span>
+							<span class="label label-info">Info</span>
+							<span class="label label-warning">Warning</span>
+							<span class="label label-danger">Danger</span>
+						</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- H3 -->
+						<h3>
+							<span class="label label-default">Default</span>
+							<span class="label label-primary">Primary</span>
+							<span class="label label-success">Success</span>
+							<span class="label label-info">Info</span>
+							<span class="label label-warning">Warning</span>
+							<span class="label label-danger">Danger</span>
+						</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- H4 -->
+						<h4>
+							<span class="label label-default">Default</span>
+							<span class="label label-primary">Primary</span>
+							<span class="label label-success">Success</span>
+							<span class="label label-info">Info</span>
+							<span class="label label-warning">Warning</span>
+							<span class="label label-danger">Danger</span>
+						</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- H5 -->
+						<h5>
+							<span class="label label-default">Default</span>
+							<span class="label label-primary">Primary</span>
+							<span class="label label-success">Success</span>
+							<span class="label label-info">Info</span>
+							<span class="label label-warning">Warning</span>
+							<span class="label label-danger">Danger</span>
+						</h5>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- H6 -->
+						<h6>
+							<span class="label label-default">Default</span>
+							<span class="label label-primary">Primary</span>
+							<span class="label label-success">Success</span>
+							<span class="label label-info">Info</span>
+							<span class="label label-warning">Warning</span>
+							<span class="label label-danger">Danger</span>
+						</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- P -->
+						<p>
+							<span class="label label-default">Default</span>
+							<span class="label label-primary">Primary</span>
+							<span class="label label-success">Success</span>
+							<span class="label label-info">Info</span>
+							<span class="label label-warning">Warning</span>
+							<span class="label label-danger">Danger</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION BADGES -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>Badges</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p><a href="#">Inbox <span class="badge">42</span></a></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="nav nav-pills" role="tablist">
+							<li role="presentation" class="active"><a href="#">Home <span class="badge">42</span></a></li>
+							<li role="presentation"><a href="#">Profile</a></li>
+							<li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION DROPDOWN -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>Dropdown menus</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							Dropdown
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION NAVEGADOR -->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 page-header">
+					<h1>Navs</h1>
+				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+<!-- NAV 1 -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#">Home</a></li>
+					<li role="presentation"><a href="#">Profile</a></li>
+					<li role="presentation"><a href="#">Messages</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+<!-- NAV 2 -->
+				<ul class="nav nav-pills" role="tablist">
+					<li role="presentation" class="active"><a href="#">Home</a></li>
+					<li role="presentation"><a href="#">Profile</a></li>
+					<li role="presentation"><a href="#">Messages</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- SECCION BARRA DE NAVEGACION -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>Navbars</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+<!-- NAVBAR DEFAULT -->
+					<nav class="navbar navbar-default">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="#">Project name</a>
+							</div>
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="#">Home</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#contact">Contact</a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Nav header</li>
+									<li><a href="#">Separated link</a></li>
+									<li><a href="#">One more separated link</a></li>
+								</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+<!-- NAVBAR INVERSE NEGRO -->
+					<nav class="navbar navbar-default navbar-inverse">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="#">Project name</a>
+							</div>
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="#">Home</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#contact">Contact</a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li class="dropdown-header">Nav header</li>
+									<li><a href="#">Separated link</a></li>
+									<li><a href="#">One more separated link</a></li>
+								</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION ALERT -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>Alerts</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- ALERTA VERDE -->
+						<div class="alert alert-success" role="alert">Well done! You successfully read this important alert message.</div>
+<!-- ALERTA CELESTE -->
+						<div class="alert alert-info" role="alert">Heads up! This alert needs your attention, but it's not super important.</div>
+<!-- ALERTA AMARILLA -->
+						<div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good.</div>
+<!-- ALERTA ROJA -->
+						<div class="alert alert-danger" role="alert">Oh snap! Change a few things up and try submitting again.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION BARRAS DE PROGESO-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>Progress Bar</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+<!-- BARRA AZUL-->
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
+						</div>
+<!-- BARRA VERDE -->
+						<div class="progress">
+							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
+						</div>
+<!-- BARRA CELESTE -->
+						<div class="progress">
+							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
+						</div>
+<!-- BARRA AMARILLA -->
+						<div class="progress">
+							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
+						</div>
+<!-- BARRA ROJA -->
+						<div class="progress">
+							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
+						</div>
+<!-- BARRA AZUL CON LINEAS CELESTES -->
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete</span></div>
+						</div>
+<!-- BARRA VERDE AMARILLO ROJO -->
+						<div class="progress">
+							<div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
+							<div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
+							<div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% Complete (danger)</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- LISTAS -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>List groups</h1>
+				</div>
+				<div class="row">
+<!-- LISTA 1 -->
+					<div class="col-md-4">
+						<ul class="list-group">
+							<li class="list-group-item">Cras justo odio</li>
+							<li class="list-group-item">Dapibus ac facilisis in</li>
+							<li class="list-group-item">Morbi leo risus</li>
+							<li class="list-group-item">Porta ac consectetur ac</li>
+							<li class="list-group-item">Vestibulum at eros</li>
+						</ul>
+					</div>
+<!-- LISTA 2, parte superior azul -->
+					<div class="col-md-4">
+						<div class="list-group">
+							<a href="#" class="list-group-item active">
+								Cras justo odio
+							</a>
+							<a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+							<a href="#" class="list-group-item">Morbi leo risus</a>
+							<a href="#" class="list-group-item">Porta ac consectetur ac</a>
+							<a href="#" class="list-group-item">Vestibulum at eros</a>
+						</div>
+					</div>
+<!-- LISTA 3, parte superior azul -->
+					<div class="col-md-4">
+						<div class="list-group">
+							<a href="#" class="list-group-item active">
+								<h4 class="list-group-item-heading">List group item heading</h4>
+								<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">List group item heading</h4>
+								<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+							</a>
+							<a href="#" class="list-group-item">
+								<h4 class="list-group-item-heading">List group item heading</h4>
+								<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- SECCION PANELES -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 page-header">
+					<h1>Panels</h1>
+				</div>
+				<div class="row">
+<!-- PANEL 1 DEFAULT -->
+					<div class="col-md-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Panel title</h3>
+							</div>
+							<div class="panel-body">
+								Panel content
+							</div>
+						</div>
+					</div>
+<!-- PANEL 2 VERDE -->
+					<div class="col-md-4">
+						<div class="panel panel-success">
+							<div class="panel-heading">
+								<h3 class="panel-title">Panel title</h3>
+							</div>
+							<div class="panel-body">
+								Panel content
+							</div>
+						</div>
+					</div>
+<!-- PANEL 3 AMARILLO -->
+					<div class="col-md-4">
+						<div class="panel panel-warning">
+							<div class="panel-heading">
+								<h3 class="panel-title">Panel title</h3>
+							</div>
+							<div class="panel-body">
+								Panel content
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+<!-- PANEL 4 AZUL -->
+					<div class="col-md-4">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">Panel title</h3>
+							</div>
+							<div class="panel-body">
+								Panel content
+							</div>
+						</div>
+					</div>
+<!-- PANEL 5 CELESTE -->
+					<div class="col-md-4">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title">Panel title</h3>
+							</div>
+							<div class="panel-body">
+								Panel content
+							</div>
+						</div>
+					</div>
+<!-- PANEL 6 ROJO -->
+					<div class="col-md-4">
+						<div class="panel panel-danger">
+							<div class="panel-heading">
+								<h3 class="panel-title">Panel title</h3>
+							</div>
+							<div class="panel-body">
+								Panel content
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
